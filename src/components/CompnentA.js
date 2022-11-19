@@ -7,7 +7,7 @@ const ComponentA = () =>{
     const [number,setNumber] = useState(10);
     return(
         <div>
-            <h1>ComponentA</h1>
+            <h1>ComponentA Context API</h1>
            
             <NumberContext.Provider value = {number}>
               <ComponentB  />
